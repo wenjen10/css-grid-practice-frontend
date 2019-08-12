@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+    font: 700 16px 'Open Sans', sans-serif;
+    color: #eee;
+}
+
+.container {
+}
+.footer {
+    background-color: #ff0;
+    color: #011;
+}
+.header {
+    background-color: #f00;
+}
+.main__content__item--1,
+.main__content__item--2 {
+    background-color: #0f0;
+    color: #011;
+}
+.main__sidebar__item--1,
+.main__sidebar__item--2,
+.main__sidebar__item--3 {
+    background-color: #00f;
+}

@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin: auto auto 0px auto;
+    height: 100px; 
+    width: 1000px;
+}
+.main{
+display: grid;
+margin:  auto;
+width: 1000px;
+height: 470px;
+grid-template-columns: 680px 300px;
+grid-gap: 20px;
+}
+.main__content{
+display: grid; 
+grid-gap: 10px; 
+}
+.main__sidebar{
+display: grid;
+grid-gap: 10px;
+}
+.footer{
+    margin: 0px auto auto auto;
+    height: 150px;
+    width: 1000px;
+    }
